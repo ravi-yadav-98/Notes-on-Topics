@@ -24,3 +24,6 @@ when a specific layer’s activation tends to zero deeper in the network.
 1. Identical Residual Block : Dimensions are same
 2. Convolution Residual Blocks: **In this type of residual block, the skip-connection consists of a convolutional layer to resize the output of the 
 shortcut path to be of the same dimension as that of the main path.**
+
+
+![image](https://user-images.githubusercontent.com/85448160/122653178-aded2e80-d160-11eb-9960-9045765762d2.png)
