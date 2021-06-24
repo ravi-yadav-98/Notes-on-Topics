@@ -5,7 +5,18 @@
 2. **Reason for fluctuating training/validation loss??**
 3. **Reason for slow decrease of loss ??**
 4. **How to Reduce overfitting ??**
+5. **Reason for Validation accuracy constant but training accuracy improves??**
 -----------------------------------------------------------------
+### Q&A:1  Validation accuracy constant but training accuracy increases??
+- Answer: [link:](https://stackoverflow.com/questions/52356068/validation-accuracy-constant-in-keras-cnn-for-multiclass-image-classification)
+- Decrease Learning rate in Adam (1e-6), SGD( 1e-2/e-3)
+- Decrease model complexity
+- Make training data balance
+- if data is imbalance: use class_weight in keras.fit()
+- Extensive data augumentation
+- [github issue](https://github.com/keras-team/keras/issues/1597)
+- -------------------------------------------------------------------------------------------------------------
+
 
 - epoch: one forward pass and one backward pass of all the training examples
 - batch size = the number of training examples in one forward/backward pass. The higher the batch size, the more memory space you'll need.
